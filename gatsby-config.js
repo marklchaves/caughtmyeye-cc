@@ -9,15 +9,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'caught my eye',
+        short_name: 'cme',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
+        background_color: '#212326',
+        theme_color: '#25272A',
+        display: 'standalone',
         icon: 'src/images/cme-logo-black-clear-512x512.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
+    `gatsby-plugin-offline`,
   ],
 }
