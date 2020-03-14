@@ -55,8 +55,8 @@
       )
     );
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      #{_palette(bg-overlay)},
+      #{_palette(bg-overlay)}
       ), 
       url('../../images/bg.jpg');
     background-position: center;
