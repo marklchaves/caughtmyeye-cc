@@ -101,7 +101,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+          <form name="contact" method="post" action="https://formspree.io/xyypknql">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
