@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/bali-andong-rina-warung-1-900w.jpg'
+import pic02 from '../images/bali-ubud-canang-900w.jpg'
+import pic03 from '../images/california-santa-monica-jalan-pohon2-900w.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,14 +29,17 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Photography</h2>
+          <span className="image main">
+            <img src={pic01} alt="Tara at the Warung by mark l chaves" />
+          </span>
           <p>
-            I've contributed to Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
+            Contributor for Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
           </p>
           <p>
-            I'm an Airbnb Plus photographer and the creator of BaliStreetPhotographer.com.
+            Airbnb Plus photographer and the creator of BaliStreetPhotographer.com.
           </p>
           <p>
-            My photography has been exhibited in Bali, the US, and the EU.
+            Photography exhibited in Bali, the US, and the EU.
           </p>
           {close}
         </article>
@@ -49,11 +52,15 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Writing</h2>
+          <span className="image main">
+            <img src={pic02} alt="Canang sari-Balinese offerings Ubud Bali" />
+          </span>
+
           <p>
-            I've been published in print on AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. I've been featured online at Vimpt, Editorr, and Grryo.
+            Published on print in AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. Online articles and essays published on Inkifi, Vimpt, Editorr, and Grryo.
           </p>
           <p>
-            I self-publish articles on DEV.to and Medium.
+            Self-published articles on DEV.to and Medium.
           </p>
           {close}
         </article>
@@ -66,6 +73,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Web Development</h2>
+          <span className="image main">
+            <img src={pic03} alt="Santa Monica CA" />
+          </span>
+
           <p>
             Sample sites: EvePersak.com, Natocho.com, ScalingStudentSuccess.org, and Accuvalent.com.
           </p>
@@ -76,7 +87,7 @@ class Main extends React.Component {
             WordPress plugins: Gallery Image Captions, Hide and Seek Header, and Ko-fi button.
           </p>
           <p>
-            Before freelancing, I slung code and managed web teams for companies such as IBM, Oracle, and Sony PlayStation. I have an undergraduate degree in software engineering from The Ohio State University. I have a masters in computer science from The American University in Washington, D.C. My credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
+            Before freelancing, I slung code and managed dev teams for companies such as IBM, Oracle, and Sony PlayStation. My undergrad was in software engineering at The Ohio State University. My masters was in computer science from The American University Washington, D.C. My credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
           </p>
 
           {close}
@@ -90,7 +101,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form name="contact" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
