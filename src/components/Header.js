@@ -8,7 +8,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>c a u g ht my e y e</h1>
+        <h1>c a u g ht my e&nbsp;y&nbsp;e</h1>
         <p>
           to see rather than look
         </p>
@@ -19,28 +19,28 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('photog')
             }}
           >
-            Intro
+            Photography
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('writing')
             }}
           >
-            Work
+            Writing
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('webdev')
             }}
           >
-            About
+            Web Development
           </button>
         </li>
         <li>

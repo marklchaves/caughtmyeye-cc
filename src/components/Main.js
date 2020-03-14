@@ -22,65 +22,63 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="photog"
+          className={`${this.props.article === 'photog' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Photography</h2>
           <p>
-            Freelancer based in Bali, Indonesia.
+            I've contributed to Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
           </p>
           <p>
-            Photography, writing, and web development.
+            I'm an Airbnb Plus photographer and the creator of BaliStreetPhotographer.com.
+          </p>
+          <p>
+            My photography has been exhibited in Bali, the US, and the EU.
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="writing"
+          className={`${this.props.article === 'writing' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Writing</h2>
           <p>
-            Photography: Loop Images UK, Airbnb Plus Bali, and BaliStreetPhotographer.com.
+            I've been published in print on AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. I've been featured online at Vimpt, Editorr, and Grryo.
           </p>
           <p>
-            Writing: AirAsia Travel 3Sixty Magazine, Asian Geographic, Medium, DEV.to, Vimpt, Editorr, and Grryo.
-          </p>
-          <p>
-            Websites: EvePersak.com, ScalingStudentSuccess.org, and Accuvalent.com. 
-          </p>
-          <p>
-            Apps: IniBali.caughtmyeye.cc, Hope.caughtmyeye.cc, Shorties.caughtmyeye.cc. 
-          </p>
-          <p>
-            WordPress plugins: Gallery Image Captions, Hide and Seek Header, and Ko-fi Button.
-          </p>
-          <p>
-            Code samples on GitHub and CodePen.
+            I self-publish articles on DEV.to and Medium.
           </p>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="webdev"
+          className={`${this.props.article === 'webdev' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Web Development</h2>
           <p>
-            Before freelancing reelancer, I slung code and managed web teams for companies such as IBM, Oracle, and Sony PlayStation. I have an undergraduate degree in software engineering from The Ohio State University. I have a masters in computer science from The American University in Washington, D.C.
+            Sample sites: EvePersak.com, Natocho.com, ScalingStudentSuccess.org, and Accuvalent.com.
           </p>
           <p>
-            See my profiles on <a href="https://balistreetphotographer.com/about/">BaliStreetPhotographer.com</a>, <a href="https://dev.to/marklchaves/">DEV.to</a>, and <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
+            Web apps: Inibali.caughtmyeye.cc, Hope.caughtmyeye.cc, and Shorties.caughtmyeye.cc.
           </p>
+          <p>
+            WordPress plugins: Gallery Image Captions, Hide and Seek Header, and Ko-fi button.
+          </p>
+          <p>
+            Before freelancing, I slung code and managed web teams for companies such as IBM, Oracle, and Sony PlayStation. I have an undergraduate degree in software engineering from The Ohio State University. I have a masters in computer science from The American University in Washington, D.C. My credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
+          </p>
+
           {close}
         </article>
 
@@ -114,25 +112,15 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/marklchaves/"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/marklchaves/"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
