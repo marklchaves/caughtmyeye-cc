@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Photography</h2>
           <span className="image main">
-            <img src={pic01} alt="Tara at the Warung by mark l chaves" />
+            <img data-opt-src={pic01} width="560" height="200" alt="Tara at the Warung by mark l chaves" />
           </span>
           <p>
             Contributor for Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
