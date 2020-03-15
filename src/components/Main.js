@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Photography</h2>
           <span className="image main">
-            <img data-opt-src={pic01} width="560" height="200" alt="Tara at the Warung by mark l chaves" />
+            <img data-opt-src={pic01} alt="Tara at the Warung by mark l chaves" />
           </span>
           <p>
             Contributor for Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
@@ -53,7 +53,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Writing</h2>
           <span className="image main">
-            <img src={pic02} alt="Canang sari-Balinese offerings Ubud Bali" />
+            <img data-opt-src={pic02} alt="Canang sari-Balinese offerings Ubud Bali" />
           </span>
 
           <p>
@@ -74,7 +74,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Web Development</h2>
           <span className="image main">
-            <img src={pic03} alt="Santa Monica CA" />
+            <img data-opt-src={pic03} alt="Santa Monica CA" />
           </span>
 
           <p>
