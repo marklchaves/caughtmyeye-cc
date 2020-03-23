@@ -11,7 +11,11 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="preload" href="http://assets.vsco.co/assets/images/assets/Logo_white_24.png" as="image">
+        <link
+          as="image"
+          rel="preload"
+          href="http://assets.vsco.co/assets/images/assets/Logo_white_24.png"
+        />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

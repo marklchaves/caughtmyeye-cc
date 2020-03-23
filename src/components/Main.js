@@ -72,7 +72,7 @@ class Main extends React.Component {
             <a href="https://www.caughtmyeye.dev/writing/">writing portfolio</a>
           </p>
           <p>
-          <a className="mlc-icon-link" href="https://dev.to/marklchaves/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABjElEQVRoge2ZUbWEIBCGN4IRjGAEIxjBCBthGxDBCEYwghGIQIT/PsCcOxfBdVm8w8N85/ggDDDfioLu46EoitIsAEYAOwAHGVYA0zfJSyUe87kEvH0ruBIBK501p0SgKVRAGhWQRgWkqSFgAczR8cJxvdhCeRxLCyOdm8QYhvVbXWA/iV1CjAPQZ2IoqSGcd1H/DkAX6uZbBQAMlEiUjI1iRnaQ5JPFWNb/xsoP25jaAmumjAtsiT4AYGUxCyt/ZcRuFQB+L7u5KMDb8KkyhbIh1eBOgT4jYODfJWyirznE0NTj8//ZhACLTf2iC6u3+Dutktv41gQcqzd4M/9FBOBv0D0cKajdBGA8kRUT2HLJBOYQ17E2hwXsboGSxyixJMbMvsbWFujhFyd6cnTwT5IrCxnhovGoj/sFEgNTcle2EpzpTX1VAYf0Zi6+SXf4Z3luMxdjwnH6CaeGgCgqII0KSKMC0pQItPJpHUCZQG4XKUH2g8KZwCidNeOrf2mkroQLY89FySuKovwLP5T6AlwGP7kUAAAAAElFTkSuQmCC"/></a>
+          <a className="mlc-icon-link" href="https://dev.to/marklchaves/"><img alt="DEV.to logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABjElEQVRoge2ZUbWEIBCGN4IRjGAEIxjBCBthGxDBCEYwghGIQIT/PsCcOxfBdVm8w8N85/ggDDDfioLu46EoitIsAEYAOwAHGVYA0zfJSyUe87kEvH0ruBIBK501p0SgKVRAGhWQRgWkqSFgAczR8cJxvdhCeRxLCyOdm8QYhvVbXWA/iV1CjAPQZ2IoqSGcd1H/DkAX6uZbBQAMlEiUjI1iRnaQ5JPFWNb/xsoP25jaAmumjAtsiT4AYGUxCyt/ZcRuFQB+L7u5KMDb8KkyhbIh1eBOgT4jYODfJWyirznE0NTj8//ZhACLTf2iC6u3+Dutktv41gQcqzd4M/9FBOBv0D0cKajdBGA8kRUT2HLJBOYQ17E2hwXsboGSxyixJMbMvsbWFujhFyd6cnTwT5IrCxnhovGoj/sFEgNTcle2EpzpTX1VAYf0Zi6+SXf4Z3luMxdjwnH6CaeGgCgqII0KSKMC0pQItPJpHUCZQG4XKUH2g8KZwCidNeOrf2mkroQLY89FySuKovwLP5T6AlwGP7kUAAAAAElFTkSuQmCC"/></a>
           </p>
           {close}
         </article>
