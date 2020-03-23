@@ -14,7 +14,7 @@ export default function HTML(props) {
         <link
           as="image"
           rel="preload"
-          href="http://assets.vsco.co/assets/images/assets/Logo_white_24.png"
+          href="https://assets.vsco.co/assets/images/assets/Logo_white_24.png"
         />
         {props.headComponents}
       </head>

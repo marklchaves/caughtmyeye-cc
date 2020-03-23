@@ -45,7 +45,7 @@ class Main extends React.Component {
             <a href="https://www.caughtmyeye.dev/photography/">photography portfolio</a>
           </p>
           <p>
-            <a className="mlc-icon-link" href="https://vsco.co/marklchaves/"><img width="24" height="24" src="https://assets.vsco.co/assets/images/assets/Logo_white_24.png" alt="VSCO Logo" /></a>
+            <a className="mlc-icon-link" href="https://vsco.co/marklchaves/journal/p/1"><img width="24" height="24" src="https://assets.vsco.co/assets/images/assets/Logo_white_24.png" alt="VSCO Logo" /></a>
           </p>
           {close}
         </article>
