@@ -36,10 +36,16 @@ class Main extends React.Component {
             Contributor for Shotzr, Loop Images UK, EyeEm, Unsplash, and Getty Images.
           </p>
           <p>
-            Airbnb Plus photographer and the creator of BaliStreetPhotographer.com.
+            Airbnb Plus photographer and the creator of <a href="https://balistreetphotographer.com/">BaliStreetPhotographer.com</a>.
           </p>
           <p>
             Photography exhibited in Bali, the US, and the EU.
+          </p>
+          <p>
+            <a href="https://www.caughtmyeye.dev/photography/">photography portfolio</a>
+          </p>
+          <p>
+            <a className="mlc-icon-link" href="http://vsco.co/marklchaves/"><img width="24" height="24" src="http://assets.vsco.co/assets/images/assets/Logo_white_24.png" alt="VSCO Logo" /></a>
           </p>
           {close}
         </article>
@@ -60,7 +66,13 @@ class Main extends React.Component {
             Published on print in AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. Online articles and essays published on Inkifi, Vimpt, Editorr, and Grryo.
           </p>
           <p>
-            Self-published articles on DEV.to and Medium.
+            Self-published articles on <a href="https://dev.to/marklchaves/">DEV.to</a> and <a href="https://medium.com/@marklchaves/">Medium</a>.
+          </p>
+          <p>
+            <a href="https://www.caughtmyeye.dev/writing/">writing portfolio</a>
+          </p>
+          <p>
+          <a className="mlc-icon-link" href="https://dev.to/marklchaves/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABjElEQVRoge2ZUbWEIBCGN4IRjGAEIxjBCBthGxDBCEYwghGIQIT/PsCcOxfBdVm8w8N85/ggDDDfioLu46EoitIsAEYAOwAHGVYA0zfJSyUe87kEvH0ruBIBK501p0SgKVRAGhWQRgWkqSFgAczR8cJxvdhCeRxLCyOdm8QYhvVbXWA/iV1CjAPQZ2IoqSGcd1H/DkAX6uZbBQAMlEiUjI1iRnaQ5JPFWNb/xsoP25jaAmumjAtsiT4AYGUxCyt/ZcRuFQB+L7u5KMDb8KkyhbIh1eBOgT4jYODfJWyirznE0NTj8//ZhACLTf2iC6u3+Dutktv41gQcqzd4M/9FBOBv0D0cKajdBGA8kRUT2HLJBOYQ17E2hwXsboGSxyixJMbMvsbWFujhFyd6cnTwT5IrCxnhovGoj/sFEgNTcle2EpzpTX1VAYf0Zi6+SXf4Z3luMxdjwnH6CaeGgCgqII0KSKMC0pQItPJpHUCZQG4XKUH2g8KZwCidNeOrf2mkroQLY89FySuKovwLP5T6AlwGP7kUAAAAAElFTkSuQmCC"/></a>
           </p>
           {close}
         </article>
@@ -89,7 +101,33 @@ class Main extends React.Component {
           <p>
             Before freelancing, I slung code and managed dev teams for companies such as IBM, Oracle, and Sony PlayStation. My undergrad was in software engineering at The Ohio State University. My masters was in computer science from The American University Washington, D.C. My credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
           </p>
-
+          <ul className="icons">
+            <li>
+              <a
+                href="https://codepen.io/marklchaves/"
+                className="icon fa-codepen"
+              >
+                <span className="label">CodePen</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://profiles.wordpress.org/mlchaves/"
+                className="icon fa-wordpress"
+              >
+                <span className="label">WordPress</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/marklchaves/"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
+ 
           {close}
         </article>
 
@@ -100,7 +138,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Connect</h2>
           <form name="contact" method="post" action="https://formspree.io/xyypknql">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -131,10 +169,10 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/marklchaves/"
-                className="icon fa-github"
+                href="https://www.pinterest.com/marklchaves/"
+                className="icon fa-pinterest"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Pinterest</span>
               </a>
             </li>
           </ul>
