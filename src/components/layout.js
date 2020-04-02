@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
 
-import siteImg from "../images/cme-logo-black-clear-512x512.png"
+import siteImg from "../images/cme-site-image-512.jpg"
 
 const locale = 'en_US'
 const siteUrl = 'https://www.caughtmyeye.cc'
