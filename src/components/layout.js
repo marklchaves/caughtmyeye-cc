@@ -5,6 +5,12 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
 
+import siteImg from "../images/cme-site-image-512.jpg"
+
+const locale = 'en_US'
+const siteUrl = 'https://www.caughtmyeye.cc'
+const siteDesc = 'to see rather than look - photography writing web development - bali indonesia'
+
 const Layout = ({ children, location }) => {
 
   let content;
@@ -41,11 +47,25 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: siteDesc },
+              { name: 'keywords', content: 'photography, interior, photo essay, writing, webdev, web development, wordpress, gatsby, jekyll, php, javascript, html, css, freelance, freelancer, bali' },
+              { property: 'og:locale', content: locale },
+              { property: 'og:site_name', content: data.site.siteMetadata.title },
+              { property: 'og:url', content: siteUrl },
+              { property: 'og:type', content: 'website' },
+              { property: 'og:title', content: 'c a u g ht my e y e' },
+              { property: 'og:description', content: siteDesc },
+              { property: 'og:image', content: `${siteUrl}${siteImg}` },
+              { property: 'og:image:width', content: '512' },
+              { property: 'og:image:height', content: '512' },
+              { property: 'twitter:site', content: '@marklchaves' },
+              { property: 'twitter:title', content: data.site.siteMetadata.title },
+              { property: 'twitter:url', content: siteUrl },
+              { property: 'twitter:card', content: 'summary'},
             ]}
           >
-            <html lang="en" />
+            <link rel="canonical" href={siteUrl} />
+            <html lang={locale} />
           </Helmet>
           {content}
         </>
