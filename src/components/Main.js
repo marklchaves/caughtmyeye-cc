@@ -101,6 +101,9 @@ class Main extends React.Component {
           <p>
             Before freelancing, I slung code and managed dev teams for companies such as IBM, Oracle, and Sony PlayStation. My undergrad was in software engineering at The Ohio State University. My masters was in computer science from The American University Washington, D.C. My credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
           </p>
+          <p>
+            <a href="https://www.caughtmyeye.dev/webdev/">webdev portfolio</a>
+          </p>
           <ul className="icons">
             <li>
               <a
