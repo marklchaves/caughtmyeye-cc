@@ -66,7 +66,7 @@ class Main extends React.Component {
             Published on print in AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. Online articles and essays published on Inkifi, Vimpt, Editorr, and Grryo.
           </p>
           <p>
-            Currently contributing blog posts and KB articles for the Uncanny Automator plugin.
+            Recently contributed blog posts and KB articles for the Uncanny Automator plugin and how-to docs for the MonsterInsights plugin.
           </p>
           <p>
             Self-published articles on <a href="https://dev.to/marklchaves/">DEV.to</a> and <a href="https://medium.com/@marklchaves/">Medium</a>.
