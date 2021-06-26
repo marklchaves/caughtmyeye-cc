@@ -48,10 +48,11 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: siteDesc },
-              { name: 'keywords', content: 'photography, interior, photo essay, writing, webdev, web development, wordpress, gatsby, jekyll, php, javascript, html, css, freelance, freelancer, bali' },
+              { name: 'keywords', content: 'caught my eye, photography, interior, photo essay, writing, webdev, web development, wordpress, gatsby, jekyll, php, javascript, html, css, freelance, freelancer, bali' },
+              { name: 'msapplication-config', content: `${siteUrl}/browserconfig.xml` },
               { property: 'og:locale', content: locale },
               { property: 'og:site_name', content: data.site.siteMetadata.title },
-              { property: 'og:url', content: siteUrl },
+              { property: 'og:url', content: `${siteUrl}/` },
               { property: 'og:type', content: 'website' },
               { property: 'og:title', content: 'c a u g ht my e y e' },
               { property: 'og:description', content: siteDesc },
@@ -60,11 +61,12 @@ const Layout = ({ children, location }) => {
               { property: 'og:image:height', content: '512' },
               { property: 'twitter:site', content: '@marklchaves' },
               { property: 'twitter:title', content: data.site.siteMetadata.title },
-              { property: 'twitter:url', content: siteUrl },
+              { property: 'twitter:url', content: `${siteUrl}/` },
               { property: 'twitter:card', content: 'summary'},
             ]}
           >
-            <link rel="canonical" href={siteUrl} />
+            <link rel="mask-icon" href="/safari-pinned-tab.svg" color="black" />
+            <link rel="canonical" href={siteUrl + '/'} />
             <html lang={locale} />
           </Helmet>
           {content}
