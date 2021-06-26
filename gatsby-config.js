@@ -17,7 +17,7 @@ module.exports = {
         background_color: '#212326',
         theme_color: '#25272A',
         display: 'standalone',
-        icon: 'static/cme-favicon-32x32.png', // This path is relative to the root of the site.
+        icon: 'static/favicon-32x32.png', // This path is relative to the root of the site.
         icons: [
           {
             src: `/icons/icon-48x48.png`,
@@ -47,6 +47,11 @@ module.exports = {
           {
             src: `/icons/icon-152x152.png`,
             sizes: `152x152`,
+            type: `image/png`,
+          },
+          {
+            src: `/icons/apple-touch-icon.png`,
+            sizes: `180x180`,
             type: `image/png`,
           },
           {
