@@ -17,7 +17,7 @@ module.exports = {
         background_color: '#212326',
         theme_color: '#25272A',
         display: 'standalone',
-        icon: 'static/favicon-32x32.png', // This path is relative to the root of the site.
+        icon: 'icons/icon-48x48.png', // This path is relative to the root of the site.
         icons: [
           {
             src: '/icons/icon-48x48.png',
