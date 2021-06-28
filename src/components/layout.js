@@ -65,6 +65,7 @@ const Layout = ({ children, location }) => {
               { property: 'twitter:card', content: 'summary'},
             ]}
           >
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="black" />
             <link rel="canonical" href={siteUrl + '/'} />
             <html lang={locale} />
