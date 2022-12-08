@@ -170,14 +170,6 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/marklchaves/"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://www.pinterest.com/marklchaves/"
                 className="icon fa-pinterest"
               >
