@@ -66,7 +66,7 @@ class Main extends React.Component {
             Published on print in AirAsia Travel 3Sixty Magazine and Asian Geographic Magazine. Online articles and essays published on Inkifi, Vimpt, Editorr, and Grryo.
           </p>
           <p>
-            Recently contributions: Uncanny Owl and Uncanny Automator blog posts and KB articles, MonsterInsights how-to docs.
+            Recent contributions: Uncanny Owl and Uncanny Automator blog posts and KB articles, MonsterInsights how-to docs, Popup Maker how-tos and articles.
           </p>
           <p>
             Self-published articles on <a href="https://dev.to/marklchaves/">DEV.to</a> and <a href="https://medium.com/@marklchaves/">Medium</a>.
@@ -104,7 +104,7 @@ class Main extends React.Component {
             Published WordPress plugins: Gallery Image Captions, Hide and Seek Header, Search Placeholder Avada, Will Work for Ko-fi (CGB), and Ko-fi button (contributor).
           </p>
           <p>
-            Before freelancing, I slung code and managed dev teams for companies such as IBM, Oracle, and Sony PlayStation. I have a Bachelor of Software Engineering degree from The Ohio State University. I have a Master of Computer Science degree from The American University Washington, D.C. More credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
+            Before freelancing, I slung code and managed dev teams for companies such as IBM, Oracle, and Sony PlayStation. I have a Bachelor of Software Engineering degree from The Ohio State University. I have a Master of Computer Science degree from The American University Washington, DC. More credentials are on <a href="https://www.quora.com/profile/Mark-Chaves/">Quora</a>.
           </p>
           <p>
             <a href="https://www.caughtmyeye.dev/webdev/">webdev portfolio</a>
