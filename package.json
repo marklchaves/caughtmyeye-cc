@@ -5,7 +5,7 @@
   "author": "mark l chaves",
   "dependencies": {
     "@babel/core": "^7.9.0",
-    "gatsby": "^2.19.5",
+    "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^2.3.2",
     "gatsby-plugin-offline": "^3.0.40",
     "gatsby-plugin-react-helmet": "^3.1.21",
