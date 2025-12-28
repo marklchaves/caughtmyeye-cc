@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/bali-andong-rina-warung-1-900w.jpg'
 import pic02 from '../images/bali-ubud-canang-900w.jpg'
-import pic03 from '../images/california-santa-monica-jalan-pohon2-900w.jpg'
+import pic03 from '../images/mark-dad-encinitas-beach-900w.jpeg'
 
 class Main extends React.Component {
   render() {
@@ -22,6 +22,40 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
+          id="threads"
+          className={`${this.props.article === 'threads' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Threads</h2>
+          <span className="image main">
+            <img src={pic03} alt="First Ocean" />
+          </span>
+          <p>
+            these days, i surf maybe a couple of times a year.
+          </p>
+          <p>
+            this year (2025), i was on a "mission" to surf as much as possible before the upcoming rainy season. it's a long story, but last year's rainy season went way into july-august. that's about a 10-month-long rainy season (uncanny).          </p>
+          <p>          
+            during my last session of this year, i saw someone on the beach wading in the shallows. they had a small inflatable raft. you don't see that every day here in bali.
+          </p>
+          <p>
+            seeing that "toy" raft the other day brought back my first memory of the ocean. not sure exactly how old we (me and my brothers) were, but we were on a family vacation to myrtle beach, south carolina. i was still in primary school, so it was in the 70s.
+          </p>
+          <p>
+            i remember smelling the salt in the air for the very first time. we were still in the car, driving to our hotel. my dad rolled down his window and said, "can you smell the ocean?"
+          </p>
+          <p>
+            on that trip, my dad got 2 inflatable "toys" for us. one was an inner tube. the other, you guessed it, was a small raft.
+          </p>
+          <p>
+            <a href="https://www.caughtmyeye.dev/">more threads</a>
+          </p>
+          {close}
+        </article>
+
+        <article
           id="photog"
           className={`${this.props.article === 'photog' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -30,7 +64,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Photography</h2>
           <span className="image main">
-            <img src={pic01} alt="Tara at the Warung by mark l chaves" />
+            <img src={pic01} alt="Tara at the Warung" />
           </span>
           <p>
             <a href="https://www.caughtmyeye.dev/photography/">gallery</a>
@@ -51,7 +85,7 @@ class Main extends React.Component {
           </span>
 
           <p>
-            <a href="https://www.caughtmyeye.dev/writing/">writing samples</a>
+            <a href="https://www.caughtmyeye.dev/writing/">samples</a>
             &nbsp;&bull;&nbsp;
             <a href="https://guide.caughtmyeye.cc">style guide</a>
           </p>
