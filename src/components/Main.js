@@ -36,7 +36,8 @@ class Main extends React.Component {
             these days, i surf maybe a couple of times a year.
           </p>
           <p>
-            this year (2025), i was on a "mission" to surf as much as possible before the upcoming rainy season. it's a long story, but last year's rainy season went way into july-august. that's about a 10-month-long rainy season (uncanny).          </p>
+            this year (2025), i was on a "mission" to surf as much as possible before the upcoming rainy season. it's a long story, but last year's season went way into july-august. 10 months. uncanny.
+          </p>
           <p>          
             during my last session of this year, i saw someone on the beach wading in the shallows. they had a small inflatable raft. you don't see that every day here in bali.
           </p>
