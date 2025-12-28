@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Photography</h2>
           <span className="image main">
-            <img data-opt-src={pic01} alt="Tara at the Warung by mark l chaves" />
+            <img src={pic01} alt="Tara at the Warung by mark l chaves" />
           </span>
           <p>
             <a href="https://www.caughtmyeye.dev/photography/">gallery</a>
@@ -47,7 +47,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Writing</h2>
           <span className="image main">
-            <img data-opt-src={pic02} alt="Canang sari-Balinese offerings Ubud Bali" />
+            <img src={pic02} alt="Canang sari-Balinese offerings Ubud Bali" />
           </span>
 
           <p>

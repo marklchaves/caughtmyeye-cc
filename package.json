@@ -4,16 +4,15 @@
   "version": "1.0.0",
   "author": "mark l chaves",
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "gatsby": "^2.19.5",
-    "gatsby-plugin-manifest": "^2.3.2",
-    "gatsby-plugin-offline": "^3.0.40",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sass": "^2.1.27",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^5.12.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-offline": "^6.12.0",
+    "gatsby-plugin-react-helmet": "^6.12.0",
+    "gatsby-plugin-sass": "^6.12.0",
+    "sass": "^1.60.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "keywords": [
     "gatsby"

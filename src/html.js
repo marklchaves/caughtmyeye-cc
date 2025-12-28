@@ -26,25 +26,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
-        dangerouslySetInnerHTML={{
-        __html: `
-        // javascript code
-        (function(w, d){
-            var b = d.getElementsByTagName('head')[0];
-            var s = d.createElement("script");
-            var v = ("IntersectionObserver" in w) ? "_no_poly" : "";
-            s.async = true; // This includes the script as async.
-            s.src = "https://d5jmkjjpb7yfg.cloudfront.net/v2/latest/optimole_lib" + v + ".min.js";
-            w.optimoleData = {
-                key: "mlpr65hp9lfb",
-                quality: "85",
-            };
-            b.appendChild(s);
-        }(window, document));    
-   	    `
-        }}
-        />,
       </body>
     </html>
   )
