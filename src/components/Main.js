@@ -68,7 +68,9 @@ class Main extends React.Component {
             <img src={pic01} alt="Tara at the Warung" />
           </span>
           <p>
-            <a href="https://www.caughtmyeye.dev/photography/">gallery</a>
+            <a href="https://unsplash.com/@marklchaves">Unsplash</a>
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.pexels.com/@mark-chaves-410307/">Pexels</a>
           </p>
           {close}
         </article>
@@ -86,8 +88,6 @@ class Main extends React.Component {
           </span>
 
           <p>
-            <a href="https://www.caughtmyeye.dev/writing/">samples</a>
-            &nbsp;&bull;&nbsp;
             <a href="https://guide.caughtmyeye.cc">style guide</a>
           </p>
           {close}
