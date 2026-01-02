@@ -68,6 +68,8 @@ class Main extends React.Component {
             <img src={pic01} alt="Tara at the Warung" />
           </span>
           <p>
+            <a href="https://inibali.caughtmyeye.cc/">ini bali</a>
+            &nbsp;&bull;&nbsp;
             <a href="https://unsplash.com/@marklchaves">Unsplash</a>
             &nbsp;&bull;&nbsp;
             <a href="https://www.pexels.com/@mark-chaves-410307/">Pexels</a>
