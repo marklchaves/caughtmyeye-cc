@@ -20,6 +20,9 @@
     "react-helmet": "^6.1.0",
     "core-js": "^3.32.0"
   },
+  "optionalDependencies": {
+    "@parcel/watcher-linux-x64-glibc": "^2.4.1"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
