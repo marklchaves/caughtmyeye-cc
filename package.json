@@ -3,6 +3,10 @@
   "description": "c a u g ht my e y e",
   "version": "1.0.0",
   "author": "mark l chaves",
+  "engines": {
+    "node": "18.20.8",
+    "npm": "10.8.2"
+  },
   "dependencies": {
     "gatsby": "^5.16.1",
     "gatsby-plugin-manifest": "^5.16.0",
