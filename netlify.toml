@@ -1,5 +1,6 @@
 [build]
-  command = "gatsby clean && npm run build"  
+#  command = "gatsby clean && npm run build"  
+  command = "npm rebuild @parcel/watcher && gatsby build"
   publish = "public"
 
 [build.environment]
